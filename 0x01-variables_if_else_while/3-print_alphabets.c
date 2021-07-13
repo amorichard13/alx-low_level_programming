@@ -1,5 +1,5 @@
 #include <stdio.h>
-0;136;0c/**
+/**
  *main - entry point
  *Description: random number in n +ve/-ve
  *Return: 0 on success
