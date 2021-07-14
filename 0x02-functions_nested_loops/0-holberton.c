@@ -1,16 +1,18 @@
-#include <stdio.h>
 #include "holberton.h"
-
+#include "holberton.c"
 /**
- * main - Entry point
- *
- * _putchar: Calls function _putchar in hoberton.h
- *
- * Return: it return a zero
+ *main - entry point.
+ *Description: program starts and ends here.
+ *Return: 0 on success.
  */
-
 int main(void)
 {
-_putchar('Holberton\n');
+char text[9] = "Holberton";
+int i;
+for (i = 0; i < 9; i++)
+{
+_putchar(text[i]);
+}
+_putchar('\n');
 return (0);
 }
